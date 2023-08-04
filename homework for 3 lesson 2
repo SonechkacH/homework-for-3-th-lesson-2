@@ -1,0 +1,16 @@
+ <script>
+        function count(){
+            var sal = prompt('Введите сумму оклада');
+            var sol = parseInt(sal);
+            if(sal<100000){
+            alert(sol*0,65);
+        }
+        else if(sal>=100000){
+            alert(sol*0,55);
+        }
+        else {
+            alert('Вы ввели что-то непонятное');
+        }
+
+        }
+    </script>
